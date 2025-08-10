@@ -1,0 +1,200 @@
+<!-- sunflower: a page theme by nenrikido.neocities.org -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+    
+<!-- Mirrored from ventablack.neocities.org/shrines by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Aug 2025 17:15:25 GMT -->
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel='shortcut icon' type='image/x-icon' href='https://ventablack.neocities.org/media/f.gif' />
+      <title>SHRINES.</title>
+    </head>
+    <body>
+    
+    <style>
+  
+  :root {
+    --title-color: #ffe14b;
+    --title-border: #d69721;
+    --title-font-size: 4.5em;
+    --title-font: 'PORKYS'; 
+    --body-font: 'National Park'; 
+    --body-font-color: #20550f;
+    --box-color: #effae7ee;
+    --bg-image: url('https://dl.dropbox.com/s/sdsvmkz4mus7pn4/sunflower.jpg');
+    --left-image: url(''); 
+    --right-image: url('https://dl.dropbox.com/s/8s4n1o0yneyd2rs/rm7.png');
+    --divider-image: url('https://dl.dropbox.com/s/hw0ihvypgg4vjwr/s10-sunflower-line.gif');
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  *, *::before, *::after {
+      box-sizing: border-box;
+  }
+  
+  body {
+    background: url("https://ventablack.neocities.org/media/tilebg1.png") repeat;
+    text-align: justify;
+    font-family: "MS ui gothic";
+    color: var(--body-font-color);
+    scrollbar-color: var(--title-color) var(--box-color); /* Mozilla scrollbar fallback */
+  }
+  
+body > iframe:first-child { display: none !important; }
+      
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    color: #9f56b3;
+    -webkit-text-stroke: 1px #604567;
+  }
+  
+  a {
+    color: var(--title-border);
+  }
+  
+  @font-face {
+    font-family: 'PORKYS';
+    src: url('https://dl.dropbox.com/s/o15z0l76kqbi8jq/PORKH.ttf');
+  }
+  
+  @font-face {
+    font-family: 'National Park';
+    src: url('https://dl.dropbox.com/s/jox00bymodcheoy/NationalPark-Regular.otf');
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 8px var(--title-color);
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--title-color);
+    outline: 1px solid var(--title-border);
+  }
+  
+  .container {
+    padding: 15px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .container > div {
+    flex: 1 1 auto;
+    width: 33vw;
+  }
+  
+  #divider {
+    height: 2.5em;
+    max-width: 100%;
+    margin: 1em;
+    background: url("https://ventablack.neocities.org/media/dv1.gif") center / contain no-repeat;
+   }
+  
+  #title {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: var(--title-font-size);
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  
+  #title a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-text-stroke: 2px var(--title-border);
+  }
+  
+  #title a:hover {
+    filter: drop-shadow(2px 2px 5px var(--title-border));
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+  }
+  
+  nav ul li {
+  padding: 10px;
+  }
+  
+  #main {
+    z-index: 0;
+  }
+  
+  #box {
+    margin: 5em auto;
+    width: 25vw;
+    height: 60vh;
+    padding: 5px;
+    overflow-x: hidden;
+    border-radius: 5px;
+    background-color: var(--box-color);
+    box-shadow: 0px 0px 20px 50px var(--box-color);
+  }
+  
+  #right {
+    transform: translateX(-10%);
+    z-index: 1;
+    background: url("") center / contain no-repeat;
+  }
+  
+  
+  /* Mobile */
+  @media only screen and (max-width: 800px) {
+  #title {
+    font-size: calc(var(--title-font-size) / 1.4);
+  }
+    
+  #left, #right {
+    display: none;
+  }
+  
+  #box {
+    width: 70vw;
+    height: 40vh;
+  }
+  }
+  </style>
+  
+  <div class="container">
+    <div id="left"></div>
+    <div id="main">
+        <div id="divider"></div>
+        <div id="box">
+          <h2 align="center">welcome to my shrine page! <img src="https://ventablack.neocities.org/media/f.gif"> </h2> 
+            <center><p>click on the images below to visit my shrine pages!</p><br>
+            <div title="aventurine (honkai: star rail)"><a href="https://ventablack.neocities.org/aventurine"><img src="https://ventablack.neocities.org/shrine/icon.jpg" style="border:dotted; border-width: 2px; border-color:purple; width:150px; float:left;"></a></div>
+            <div title="needy streamer overload (game)"><a href="https://ventablack.neocities.org/nso"><img src="https://ventablack.neocities.org/shrine/nso.png" style="border:dotted; border-width: 2px; border-color:purple; width:150px; float:right;"></a></div><br><br><br><br><br><br><br><br><br><br><br>
+            <div title="yumeshipping / self-shipping"><a href="https://ventablack.neocities.org/yumeship"><img src="https://ventablack.neocities.org/shrine/yume.png" style="border:dotted; border-width: 2px; border-color:purple; width:150px; float:center;"></a></div>
+            </center>
+            <br><br><br><br>
+            <center><a href="https://ventablack.neocities.org/home"><img src="https://ventablack.neocities.org/media/homebutton2.gif"></a>
+            </center>
+        </div>
+    </div>
+    <div id="right"></div>
+  </div>
+  
+  </body>
+  
+  
+<!-- Mirrored from ventablack.neocities.org/shrines by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Aug 2025 17:15:25 GMT -->
+</html>

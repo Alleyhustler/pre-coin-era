@@ -1,0 +1,974 @@
+<!--
+
+
+    theme page:      MOVE
+    made by:         aurthms
+
+    CHECK //aurthms.tumblr.com/page/move/info FOR CUSTOMIZATION HELP
+    
+
+-->
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from ventablack.neocities.org/about by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Aug 2025 17:15:03 GMT -->
+<head>
+<link rel="alternate" type="application/rss+xml" href="%7bRSS%7d.html">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--css-->
+<link rel="stylesheet" type="text/css" href="unpkg.com/normalize.css%408.0.1/normalize.css">
+<!--font--><link href="https://fonts.googleapis.com/css2?family=VT323&amp;display=swap" rel="stylesheet">
+<!--aesthetic.css--><link rel="stylesheet" type="text/css" href="../cdn.jsdelivr.net/npm/aesthetic-css%401.0.1/aesthetic.css">
+</head>
+
+<style type="text/css">
+
+:root{
+--Background-Color:#FF00FE;
+/**THE GRID COLORS NEED TO BE RGB**/
+--Grid-Color:237, 0, 12;
+--Grid-Shadow-Color:10, 132, 231;
+
+--Font-Color:#111111;
+--Link-Color:#000080;
+--Color-Navigation-Link-Active:#f0f0f0;
+
+--Content-Width:540px;
+}
+
+/* TUMBLR CONTROLS */
+
+iframe.tmblr-iframe, iframe.tmblr-iframe:hover{
+    opacity:0 !important;
+    visibility:hidden !important;
+    display:none !important;
+}
+
+/*LINKS*/
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover{
+    color:var(--Link-Color);
+    background:linear-gradient(var(--Link-Color),var(--Link-Color))0 100%/100% 1px no-repeat;
+	text-decoration:none;
+	-moz-transition:0.3s ease-in;
+	-webkit-transition:0.3s ease-in;
+	-o-transition:0.3s ease-in;
+	transition:0.3s ease-in;
+}
+
+a:hover{
+    background:linear-gradient(135deg, rgb(16,215,174) 0%, rgb(255,106,213) 100%)0 100%/100% 1px no-repeat;
+}
+
+/*text*/
+
+p:first-of-type{
+    margin-top:0;
+}
+
+pre{
+	white-space:pre-wrap;
+	white-space:0;
+	word-wrap:break-word;
+	font-size:0.7em;
+	line-height:1.5;
+}
+
+blockquote{
+	padding:0;
+	margin:0;
+}
+
+b,
+strong{
+    font-weight:700;
+}
+
+u{
+    background-image:-webkit-gradient(linear, left top, left bottom, from(var(--Font-Color)), to(var(--Font-Color)));
+    background-image:linear-gradient(var(--Font-Color), var(--Font-Color));
+    background-repeat:repeat-x;
+    background-position:0% 92%;
+    background-size:1px 1px;
+    color:var(--Font-Color);
+    text-decoration:none;
+    letter-spacing: 
+    1px;
+}
+
+/* BODY */
+
+body{
+    background:var(--Background-Color);
+    background-image:linear-gradient(rgba(var(--Grid-Color),0.7) .2em, transparent .2em), linear-gradient(90deg, rgba(var(--Grid-Color),0.7) .2em, transparent .2em), linear-gradient(90deg, rgba(var(--Grid-Shadow-Color),0.7) .4em, transparent .4em);
+    background-size:3em 3em;
+    color:var(--Font-Color);
+    font-family:'VT323', monospace;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width:16px;
+    height:16px;
+}
+
+::-webkit-scrollbar-track{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAFElEQVQIW2M4fPz0////GYAYyAIASnoKpV3w4kgAAAAASUVORK5CYII=");
+    image-rendering:pixelated;
+}
+
+::-webkit-scrollbar-track:active{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAEElEQVQIW2No6+pjgAAgCwAWogM9VKrgGQAAAABJRU5ErkJggg==");
+}
+
+::-webkit-scrollbar-thumb{
+    border-top:1px solid #c3c7cb;
+    border-left:1px solid #c3c7cb;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    box-shadow:inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+    width:16px;
+    height:16px;
+    background-color:#c3c7cb;
+    z-index:1;
+}
+
+::-webkit-scrollbar-corner{
+    background-color:#c3c7cb;
+}
+
+::-webkit-resizer{
+    width:16px;
+    height:16px;
+    background-color:#c3c7cb;
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAN0lEQVR4Ae3MgQUAMBRDwU5fFF05lb/CARTBw2Ulof0DxPtcwp3hNuEYnjbcEW4TjuFpwx3h9gMWGgZ2Y/PT2gAAAABJRU5ErkJggg==");
+  background-position:bottom right;
+  background-repeat:no-repeat;
+  image-rendering:pixelated;
+}
+
+::-webkit-scrollbar-button, ::-webkit-scrollbar-button{
+    border-top:1px solid #c3c7cb;
+    border-left:1px solid #c3c7cb;
+    border-right:1px solid black;
+    border-bottom:1px solid black;
+    box-shadow:inset 1px 1px 0 0 white, inset -1px -1px 0 0 #868a8e;
+    display:block;
+    width:16px;
+    height:16px;
+    background-color:#c3c7cb;
+    image-rendering:pixelated;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+::-webkit-scrollbar-button:active, ::-webkit-scrollbar-button:active{
+    background-position:2px 2px;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement, ::-webkit-scrollbar-button:horizontal:decrement{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHklEQVQY02NgoBT8xyX8H5fwf1zCpOjAYwceV1EEAAO2D/HsQ4vsAAAAAElFTkSuQmCC");
+}
+
+::-webkit-scrollbar-button:horizontal:increment, ::-webkit-scrollbar-button:horizontal:increment{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAHUlEQVQY02NgIB/8xy3xH7fEf9wS/0nUQZqrKAYAK44P8ZRmzLQAAAAASUVORK5CYII=");
+}
+
+::-webkit-scrollbar-button:vertical:decrement, ::-webkit-scrollbar-button:vertical:decrement{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAGklEQVR4AWMYxuA/SYphmETFhDX9x4mHGQAAcL4P8dQiMq8AAAAASUVORK5CYII=");
+}
+
+::-webkit-scrollbar-button:vertical:increment, ::-webkit-scrollbar-button:vertical:increment{
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAQAAAD8fJRsAAAAF0lEQVQY02NgoBf4jwJxSOHQhcNAOgMAWWAP8Rv2U3UAAAAASUVORK5CYII=");
+}
+
+::-webkit-scrollbar-button:horizontal:increment:start, ::-webkit-scrollbar-button:horizontal:increment:start{
+    display:none;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:end, ::-webkit-scrollbar-button:horizontal:decrement:end{
+    display: none;
+}
+
+::-webkit-scrollbar-button:vertical:increment:start, ::-webkit-scrollbar-button:vertical:increment:start{
+    display:none;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:end, ::-webkit-scrollbar-button:vertical:decrement:end{
+    display:none;
+}
+
+::-webkit-scrollbar-button:active, ::-webkit-scrollbar-button:active{
+    border-top:1px solid #868a8e;
+    border-left:1px solid #868a8e;
+    border-bottom:1px solid #868a8e;
+    border-right:1px solid #868a8e;
+    box-shadow:none;
+}
+
+/*content*/
+
+main{
+    width:var(--Content-Width);
+    position:absolute;
+    top:50%; left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.container{
+    width:100%;
+    height:calc(100% - 28px);
+    margin:2px 0 0;
+    padding:5px;
+    box-sizing:border-box;
+    overflow:scroll !important;
+}
+
+.abt, .askbox, .nav, .askd, .xtra, .xtra2, .fave{
+    position:absolute;
+    z-index:5;
+    padding:0;
+    margin:0;
+}
+
+.abt, .askd{
+    opacity:0;
+    visibility:hidden;
+    width:290px;
+    top:50%; left:-60%;
+    transform:translateY(-50%);
+}
+
+.fave{
+      opacity:0;
+    visibility:hidden;
+    width:290px;
+    top:60%; left:-80%;
+    transform:translateY(-50%);
+}
+
+.nav{
+      opacity:0;
+    visibility:hidden;
+    width:290px;
+    top:60%; left:-115%;
+    transform:translateY(-50%);
+}
+
+.abt.show, .nav.show, .askd.show, .fave.show{
+    opacity:1;
+    visibility:visible;
+}
+
+.abt{
+    height:220px;
+    text-align:justify;
+	line-height:1.5;
+}
+
+.nav{
+    height:500px;
+    width:600px;
+    
+    top:55%; left:-90%;
+}
+
+.askd{
+    height:360px;
+}
+
+.fave{
+    height:500px;
+    width:400px;
+}
+
+.askbox{
+    width:360px;
+    top:-250px; left:150%;
+    transform:translateX(-50%);
+}
+
+.xtra{
+    width:300px;
+    top:30px; left:20%;
+    transform:translateX(-50%);
+}
+
+.xtra2{
+    width:400px;
+    bottom:30px; left:65%;
+    transform:translateX(-50%);
+}
+
+/*navigation*/
+
+.header-link{
+    list-style:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin:0 10px 0 0;
+    padding:0;
+    background:linear-gradient(var(--Font-Color),var(--Font-Color))0 86%/5px 1px no-repeat;
+    text-transform:capitalize;
+    color:var(--Font-Color);
+}
+
+.header-link.active{
+    background:none;
+    color:var(--Color-Navigation-Link-Active);
+}
+
+.header-link:last-of-type{
+    margin-right:0;
+}
+
+.header-link:hover{
+    cursor:pointer;
+}
+
+.header-link a{
+    color:var(--Font-Color);
+    background:none;
+}
+
+/*links*/
+
+.etcetera div{
+    display:inline-block !important;
+    width:calc(100% / 3 - 20px) !important;
+    margin:0 5px 5px 0;
+}
+
+.etcetera div:last-of-type{
+    margin-right:0;
+}
+
+.handle{
+    cursor:move;
+    user-select:none;
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;
+}
+
+.header{
+    width:100%;
+    text-align:center !important;
+}
+
+@media (max-width:860px){
+
+main{
+    width:calc(70vw);
+}
+
+.abt, .nav, .askd, .fave, .kin{
+    width:50%;
+    left:-20%;
+}
+
+.askbox{
+    width:60%;
+    left:100%;
+    transform:translateX(-70%);
+}
+
+.handle{
+    cursor:default;
+}
+
+}
+
+{CustomCSS}
+</style>
+<title>ABOUT</title>
+<link rel="icon" type="image/x-icon" href="media/fav3.gif">
+
+<body><main>
+
+<!--IMAGE AND NAVIGATION-->
+<div class="aesthetic-windows-95-modal">
+<div class="aesthetic-windows-95-modal-title-bar"><div class="aesthetic-windows-95-modal-title-bar-text header">aboutv2.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div>
+
+
+
+<!--NAVIGATION-->
+<div class="aesthetic-windows-95-modal-content navigation">
+<li class="header-link"><a href="home.html">home</a></li>
+<li class="header-link active" id="about">find me</li>
+<li class="header-link" id="faq">interests</li>
+<li class="header-link" id="fave">faves</li>
+<li class="header-link" id="links">media</li>
+</div>
+
+<!--IMAGE-->
+<div class="aesthetic-windows-95-modal-content"><div title="this is aventurine. i am very normal and sane about him."><img src="shrine/aven4.gif"/></div></div></div>
+
+<div class="aesthetic-windows-95-modal abt show draggable">
+<div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">findme.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content container">
+
+<!--START WRITTING HERE-->
+<div>
+<b>social media</b><br>
++ <a href="https://bsky.app/profile/slayventurine.bsky.social">bluesky</a> (<b><font color="red">18+</font></b>)<br>
++ <a href="https://jiraimaxxing.tumblr.com/" target="_blank">tumblr</a><br>
++ <a href="https://www.pillowfort.social/churin" target="_blank">pillowfort</a><br>
++ <a href="https://www.youtube.com/@AMEWAVE" target="_blank">my music</a><br>
++ <a href="https://archiveofourown.org/users/averagedilucenjoyer" target="_blank">archiveofourown</a> (<b><font color="red">18+</font></b>)<br>
++ <a href="https://www.pixiv.net/en/users/6227093" target="_blank">pixiv</a><br>
++ <a href="https://ko-fi.com/averagedilucenjoyer" target="_blank">ko-fi</a><br>
++ <a href="https://vgen.co/churin/" target="_blank">vgen</a><br>
+<b>friend codes</b><br>
++ steam : 82728207<br>
++ switch : SW-4441-1763-5714<br>
++ honkai: star rail (na) : 600840331<br>
++ genshin (na) : 602670730<br>
++ zenless zone zero (na) : 1000699327<br>
++ honkai impact 3rd (na) : 105318004<br>
++ wuthering waves (na) : 502014054
+
+
+</div></div></div>
+
+<div class="aesthetic-windows-95-modal nav draggable">
+<div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">media.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content container">
+
+<!--START WRITTING HERE-->
+
+<center><img src="media/blinkie.gif"></center><br><br>
+  <img src="s16.gif" style="width:99px;height:56px;">
+  <img src="s6.gif" style="width:99px;height:56px;">
+  <img src="s7.png" style="width:99px;height:56px;">
+  <img src="s8.png" style="width:99px;height:56px;">
+  <img src="s18.png" style="width:99px;height:56px;">
+  <img src="s21.png" style="width:99px;height:56px;">
+  <img src="s1.gif" style="width:99px;height:56px;">
+  <img src="s1.png" style="width:99px;height:56px;">
+  <img src="s2.gif" style="width:99px;height:56px;">
+  <img src="s3.png" style="width:99px;height:56px;">
+  <img src="s4.gif" style="width:99px;height:56px;">
+  <img src="s5.gif" style="width:99px;height:56px;">
+  <img src="s9.gif" style="width:99px;height:56px;">
+  <img src="s10.jpg" style="width:99px;height:56px;">
+  <img src="s11.png" style="width:99px;height:56px;">
+  <img src="s12.gif" style="width:99px;height:56px;">
+  <img src="s13.gif" style="width:99px;height:56px;">
+  <img src="s14.png" style="width:99px;height:56px;">
+  <img src="s15.gif" style="width:99px;height:56px;">
+  <img src="s17.png" style="width:99px;height:56px;">
+  <img src="s19.gif" style="width:99px;height:56px;">
+  <img src="s20.png" style="width:99px;height:56px;">
+  <img src="s22.gif" style="width:99px;height:56px;">
+  <img src="s23.webp" style="width:99px;height:56px;">
+  <img src="s24.webp" style="width:99px;height:56px;">
+  <img src="media/s23.png" style="width:99px;height:56px;">
+  <img src="media/s24.png" style="width:99px;height:56px;">
+  <img src="s2.png" style="width:99px;height:56px;">
+  <img src="s3.png" style="width:99px;height:56px;">
+  <img src="s4.jpg" style="width:99px;height:56px;">
+  <img src="s5.png" style="width:99px;height:56px;">
+  <img src="s6.png" style="width:99px;height:56px;">
+  <img src="s9.png" style="width:99px;height:56px;">
+  <img src="s10.png" style="width:99px;height:56px;">
+  <img src="s11.png" style="width:99px;height:56px;">
+  <img src="s12.png" style="width:99px;height:56px;">
+  <img src="s13.png" style="width:99px;height:56px;">
+  <img src="s16.png" style="width:99px;height:56px;">
+  <img src="s15.jpg" style="width:99px;height:56px;">
+  <img src="media/s1.gif" style="width:99px;height:56px;">
+  <img src="media/s2.gif" style="width:99px;height:56px;">
+  <img src="media/s3.gif" style="width:99px;height:56px;">
+  <img src="media/s4.gif" style="width:99px;height:56px;">
+  <img src="media/s5.gif" style="width:99px;height:56px;">
+  <img src="media/s6.gif" style="width:99px;height:56px;">
+  <img src="media/s7.gif" style="width:99px;height:56px;">
+  <img src="media/s8.gif" style="width:99px;height:56px;">
+  <img src="media/s9.gif" style="width:99px;height:56px;">
+  <img src="media/s1.webp" style="width:99px;height:56px;">
+  <img src="media/s3.png" style="width:99px;height:56px;">
+  <img src="media/s4.jpg" style="width:99px;height:56px;">
+  <img src="media/s5.webp" style="width:99px;height:56px;">
+  <img src="media/s6.html" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s7.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s8.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s9.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s10.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s11.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s12.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s13.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s14.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s15.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s16.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s17.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s18.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s19.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s20.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s21.webp" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s22.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s23.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s25.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s26.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s27.jpg" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s27.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s44.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s45.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s46.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s47.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s48.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s29.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s50.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s51.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s52.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s53.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s54.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s55.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s56.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s57.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s58.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s59.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s28.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s29.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s30.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s31.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s32.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s33.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s34.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s35.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s36.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/a37.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s38.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s39.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s40.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s41.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s42.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s43.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s60.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s61.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/s62.png" style="width:99px;height:56px;">
+  
+  <img src="https://ventablack.neocities.org/media/ns1.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns7.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns2.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns3.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns5.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns6.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns8.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns9.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns10.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns11.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns12.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns13.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns14.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns15.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns16.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns17.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns18.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns19.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns20.gif" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns21.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns22.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns23.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns24.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns25.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns26.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns27.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns28.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns29.png" style="width:99px;height:56px;">
+  <img src="https://ventablack.neocities.org/media/ns30.png" style="width:99px;height:56px;">
+  <br>
+  <img src="https://ventablack.neocities.org/bl2.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl3.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl4.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl5.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl6.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl7.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl8.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl9.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl10.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl11.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl12.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl13.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl14.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl15.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl16.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl17.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl18.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl19.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/bl20.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl1.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl1.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl2.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl3.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl4.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl5.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl6.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl7.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl8.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl9.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl10.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl11.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl12.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl13.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl1.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl2.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl4.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl13.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl14.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl14.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl15.png" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl16.png" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl17.png" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl18.png" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl19.png" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl20.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl21.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl22.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl23.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl24.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl25.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl26.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl27.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl28.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl29.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl30.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl31.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl32.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl33.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl34.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl35.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl36.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl37.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl38.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl39.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl40.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl41.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl42.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl43.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl44.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl45.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl46.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl47.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl48.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl49.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl50.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl51.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl52.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl53.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl54.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl55.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl56.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl57.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl58.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl59.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl60.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl61.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl62.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl63.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl64.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl65.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl66.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl67.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/bl68.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb1.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb2.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb3.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb4.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb5.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb6.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb7.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb8.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb9.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb10.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb11.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb12.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb13.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb14.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb15.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb16.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb17.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb18.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb19.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb20.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb21.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb22.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb23.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb24.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb25.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb26.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb27.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb28.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb29.gif" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb30.webp" style="width:150px;height:20px;">
+  <img src="https://ventablack.neocities.org/media/nb31.gif" style="width:150px;height:20px;">
+  <br>
+  <img src="https://ventablack.neocities.org/media/t12.gif">
+  <img src="https://ventablack.neocities.org/media/t11.gif">
+  <img src="https://ventablack.neocities.org/media/t18.gif">
+  <img src="https://ventablack.neocities.org/media/t14.gif">
+  <img src="https://ventablack.neocities.org/media/t9.gif">
+  <img src="https://ventablack.neocities.org/media/t1.gif">
+  <img src="https://ventablack.neocities.org/media/t2.gif">
+  <img src="https://ventablack.neocities.org/media/t3.gif">
+  <img src="https://ventablack.neocities.org/media/t4.gif">
+  <img src="https://ventablack.neocities.org/media/t5.gif">
+  <img src="https://ventablack.neocities.org/media/t6.gif">
+  <img src="https://ventablack.neocities.org/media/t7.gif">
+  <img src="https://ventablack.neocities.org/media/t8.gif">
+  <img src="https://ventablack.neocities.org/media/t13.gif">
+  <img src="https://ventablack.neocities.org/media/t15.gif">
+  <img src="https://ventablack.neocities.org/media/t16.gif">
+  <img src="https://ventablack.neocities.org/media/t17.gif">
+  <img src="https://ventablack.neocities.org/media/t19.gif">
+  <img src="https://ventablack.neocities.org/media/t20.gif">
+  <img src="https://ventablack.neocities.org/media/t21.gif">
+  <img src="https://ventablack.neocities.org/media/t23.gif">
+  <img src="https://ventablack.neocities.org/media/t25.gif">
+  <img src="https://ventablack.neocities.org/media/t26.gif">
+  <img src="https://ventablack.neocities.org/media/t27.gif">
+  <img src="https://ventablack.neocities.org/media/t28.gif">
+  <img src="https://ventablack.neocities.org/media/t29.gif">
+  <img src="https://ventablack.neocities.org/media/t30.gif">
+  <img src="https://ventablack.neocities.org/media/t31.gif">
+  <img src="https://ventablack.neocities.org/media/t24.gif">
+  <img src="https://ventablack.neocities.org/media/t32.gif">
+  <img src="https://ventablack.neocities.org/media/t33.gif">
+  <img src="https://ventablack.neocities.org/media/t34.gif">
+  <img src="https://ventablack.neocities.org/media/t35.gif">
+  <img src="https://ventablack.neocities.org/media/t36.gif">
+  <img src="https://ventablack.neocities.org/media/t37.gif">
+  <img src="https://ventablack.neocities.org/media/t38.gif">
+  <img src="https://ventablack.neocities.org/media/nsb1.gif">
+  <img src="https://ventablack.neocities.org/media/nsb2.gif">
+  <br>
+  <img src="https://ventablack.neocities.org/media/u1.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u2.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u3.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u4.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u5.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u6.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u7.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u8.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u9.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u10.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u11.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u12.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u13.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u14.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u15.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u22.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u23.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/u24.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub12.gif" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub.gif" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub1.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub2.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub3.png" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub4.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub5.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub6.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub7.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub8.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub9.jpg" style="width:240px;">
+  <img src="https://ventablack.neocities.org/media/nub10.jpg" style="width:240px;">
+  <br>
+  <img src="https://ventablack.neocities.org/media/ub1.jpg">
+  <img src="https://ventablack.neocities.org/media/ub2.jpg">
+  <img src="https://ventablack.neocities.org/media/ub3.jpg">
+  <img src="https://ventablack.neocities.org/media/ub4.jpg">
+  <img src="https://ventablack.neocities.org/media/ub5.jpg">
+  <img src="https://ventablack.neocities.org/media/ub6.jpg">
+  <img src="https://ventablack.neocities.org/media/ub7.jpg">
+  <img src="https://ventablack.neocities.org/media/ub8.jpg">
+  <img src="https://ventablack.neocities.org/media/ub9.jpg">
+  <img src="https://ventablack.neocities.org/media/ub10.jpg">
+  <img src="https://ventablack.neocities.org/media/ub11.jpg">
+  <img src="https://ventablack.neocities.org/media/ub12.jpg">
+  <img src="https://ventablack.neocities.org/media/ub13.jpg">
+  <img src="https://ventablack.neocities.org/media/ub14.jpg">
+  <img src="https://ventablack.neocities.org/media/ub15.jpg">
+  <img src="https://ventablack.neocities.org/media/ub16.jpg">
+  <img src="https://ventablack.neocities.org/media/ub17.jpg">
+  <img src="https://ventablack.neocities.org/media/ub18.jpg">
+  <img src="https://ventablack.neocities.org/media/ub19.png">
+
+</div></div>
+
+<div class="aesthetic-windows-95-modal askd">
+<div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">interests.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content container">
+
+<!--START WRITTING HERE-->
+<div>
+<h2>General:</h2>
+<p>art (drawing and painting), writing, reading (manga, novels, danmei/bl and comics), music (both listening to and creating), photography, nature (i especially love the sea!), video games, vaporwave, old web, journaling, browsing the web, jirai/menhera (lifestyle + fashion), sleeping, liminal spaces (i especially love dead malls and weirdcore), studying languages, watching anime and tv shows.</p>
+<h2>Anime/Manga:</h2>
+<p>mirai nikki, tengen toppa gurren lagann, one piece, fairy tail, bleach, bocchi the rock!, rave master, frieren: beyond journey's end, tomorrow i'll be someone's girlfriend, oshi no ko, chainsaw man, jojo's bizarre adventure, dragon ball, tokyo revengers, aria, dandadan, quintessential quintripulets, eden's zero, monogatari, seaside stranger, inuyasha, my dress-up darling, claymore, ranma 1/2, spice & wolf, yu-gi-oh, black lagoon, spy x family, panty & stocking, neon genesis evangelion, kill la kill, sailor moon.</p>
+<h2>Video Games:</h2>
+<p>honkai (impact 3rd + star rail), tasokare hotel, smt/persona, tales of series, needy streamer overload, genshin, baten kaitos, five nights at freddy's, zenless zone zero, your turn to die, fire emblem, final fantasy (i'm on and off with ffxiv), ensemble stars, blade & soul, twisted metal, fate series, danganronpa, octopath traveler, bang dream, when they cry series, warcraft series.</p>
+<h2>TV Shows/Comics:</h2>
+<p>arcane, alien stage, bojack horseman, smiling friends, invincible, squid game, futurama, breaking bad, better call saul, it's always sunny in philadelphia, snotgirl, scott pilgrim, helluva boss, hazbin hotel, umbrella academy, winter sonata, high end crush, my love from another star.</p>
+</div>
+
+</div>
+</div>
+
+<div class="aesthetic-windows-95-modal fave draggable">
+<div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">faves.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content container">
+
+<!--START WRITTING HERE-->
+<div>
+<center>(hover over the images for the character name and series!)<br><br>
+<img src="https://ventablack.neocities.org/heart.webp"> <img src="https://ventablack.neocities.org/faves/f1.jpg" title="aventurine (honkai: star rail)"> <img src="https://ventablack.neocities.org/heart.webp"><br><a href="https://ventablack.neocities.org/aventurine">love of my life &hearts;</a><br><br>
+  <img src="https://ventablack.neocities.org/faves/f2.jpg" title="raiden mei (honkai)">
+  <img src="https://ventablack.neocities.org/faves/f3.jpg" title="aponia (honkai 3rd)"> 
+  <img src="https://ventablack.neocities.org/faves/f4.jpg" title="arlecchino (genshin)">
+  <img src="https://ventablack.neocities.org/faves/f7.jpg" title="diluc ragnvindr (genshin)">
+  <img src="https://ventablack.neocities.org/faves/k8.jpg" title="hu tao (genshin)">
+  <img src="https://ventablack.neocities.org/faves/f5.jpg" title="ame (needy streamer overload)"> 
+  <img src="https://ventablack.neocities.org/faves/f6.jpg" title="yua takahashi (tomorrow i'll be someone's girlfriend)">
+  <img src="https://ventablack.neocities.org/faves/f8.jpg" title="jinx (arcane/league of legends)"> 
+  <img src="https://ventablack.neocities.org/faves/f9.jpg" title="yamato oden (one piece)">
+  <img src="https://ventablack.neocities.org/faves/k1.jpg" title="izumi miyamura (horimiya)"> 
+  <img src="https://ventablack.neocities.org/faves/f10.jpg" title="ena shinonome (project sekai)"> 
+  <img src="https://ventablack.neocities.org/faves/f11.jpg" title="springtrap (five nights at freddy's)">
+  <img src="https://ventablack.neocities.org/faves/f22.jpg" title="helpy (five nights at freddy's)">
+  <img src="https://ventablack.neocities.org/faves/f23.jpg" title="glitchtrap (five nights at freddy's)">
+  <img src="https://ventablack.neocities.org/faves/f12.jpg" title="ibara saegusa (ensemble stars)"> 
+  <img src="https://ventablack.neocities.org/faves/k7.jpg" title="tsumugi aoba (ensemble stars)"> 
+  <img src="https://ventablack.neocities.org/faves/f13.jpg" title="bb (fate series)">
+  <img src="https://ventablack.neocities.org/faves/dimitwi.png" title="dimitri alexandre blaiddyd (fire emblem)">
+  <img src="https://ventablack.neocities.org/faves/shorekeeper.png" title="the shorekeeper (wuthering waves)">
+  <img src="https://ventablack.neocities.org/faves/camel.png" title="camellya (wuthering waves)">
+  <img src="https://ventablack.neocities.org/faves/jin.png" title="jinhsi (wuthering waves)">
+  <img src="https://ventablack.neocities.org/faves/f14.jpg" title="yor forger (spy x family)">
+  <img src="https://ventablack.neocities.org/faves/meowmeow.png" title="maomao (the apothecary diaries)">
+  <img src="https://ventablack.neocities.org/faves/asuka.png" title="asuka langely soryu (neon genesis evangelion)">
+  <img src="https://ventablack.neocities.org/faves/f15.jpg" title="ako udagawa (bang dream)">
+  <img src="https://ventablack.neocities.org/faves/f16.jpg" title="pareo (bang dream)">
+  <img src="https://ventablack.neocities.org/faves/f17.jpg" title="stocking anarchy (panty & stocking)">
+  <img src="https://ventablack.neocities.org/faves/k11.jpg" title="johnny joestar (jojo's)">
+  <img src="https://ventablack.neocities.org/faves/f18.jpg" title="gyro zeppeli (jojo's)">
+  <img src="https://ventablack.neocities.org/faves/f19.jpg" title="makima (chainsaw man)">
+  <img src="https://ventablack.neocities.org/faves/k10.jpg" title="kobeni higashiyama (chainsaw man)">
+  <img src="https://ventablack.neocities.org/faves/f20.jpg" title="nicole demara (zenless zone zero)">
+  <img src="https://ventablack.neocities.org/faves/f21.jpg" title="jane doe (zenless zone zero)">
+  <img src="https://ventablack.neocities.org/F2.jpg" width="150px" title="yuno gasai (mirai nikki)">
+  <img src="https://ventablack.neocities.org/F3.jpg" title="akari mizunashi (aria)">
+  <img src="https://ventablack.neocities.org/F4.jpg" title="yuika mitsumine (idolmaster: shiny colors)">
+  <img src="https://ventablack.neocities.org/faves/ff2.jpg" title="2B (nier: automata)">
+  <img src="https://ventablack.neocities.org/faves/ff3.png" title="clover field (999)">
+  <img src="https://ventablack.neocities.org/faves/ff4.jpg" title="joe tazuna (your turn to die)">
+  <img src="https://ventablack.neocities.org/faves/ff5.jpg" title="alice yabusame (your turn to die)">
+  <img src="https://ventablack.neocities.org/faves/ff6.jpg" title="juvia lockser (fairy tail)">
+  <img src="https://ventablack.neocities.org/faves/ff7.jpg" title="yotsuyu goe brutus (ffxiv)">
+  <img src="https://ventablack.neocities.org/faves/ff8.jpg" title="tsubasa hanekawa (monogatari)">
+  <img src="https://ventablack.neocities.org/faves/ff9.jpg" title="jade curtiss (tales of the abyss)">
+  <img src="https://ventablack.neocities.org/faves/eizen.png" style="width:150px;" title="eizen (tales of berseria)">
+  <img src="https://ventablack.neocities.org/faves/magilou.png" style="width:150px;" title="magilou (tales of berseria)">
+  <img src="https://ventablack.neocities.org/faves/ff10.jpg" title="mizuki akiyama (project sekai)">
+  <img src="https://ventablack.neocities.org/faves/ff12.jpg" title="celestia ludenberg (danganronpa)">
+  <img src="https://ventablack.neocities.org/faves/k13.jpg" title="mikan tsumiki (danganronpa)">
+  <img src="https://ventablack.neocities.org/faves/k14.jpg" title="miu iruma (danganronpa)">
+  <img src="https://ventablack.neocities.org/faves/teto.png" style="width:150px;" title="kasane teto (vocaloid)">
+  <img src="https://ventablack.neocities.org/faves/nekonekonii.png" style="width:150px;" title="neko tsukahara (tasokare hotel)">
+  <img src="https://ventablack.neocities.org/faves/k17.jpg" title="misty sutton (snotgirl)">
+  </center>
+</div>
+
+</div>
+</div>
+
+<div class="aesthetic-windows-95-modal askbox draggable"><div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">welcome.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content askcontent">
+<h2>VENTABLACK About Page v2</h2> 
+                   <p>Hello, and welcome to my Neocities website! My name's Jude (he/they) and I'm a depressed 90's kid that was obsessed with making html webpages on my shitty laptop back in middle school. Now I'm a grown adult with a nice PC whose love for html coding was reignited thanks to Neocities back in late 2024.<br><br>
+
+I'm just your average weird queer person on the internet with a love for art, music and writing! I also enjoy being a little unhinged about fictional men (I bet y'all can't guess who my favorite character is). I also LOVE old web aesthetic; it brings back fond memories of when I first joined the internet back in the mid-2000s. I'm also just an aesthetic whore in general as I'm sure you've noticed --<br><br>
+
+I also love making new friends on here, so feel free to follow my <a href="https://neocities.org/site/ventablack" target="_blank">profile</a> and use my button if you wish!
+
+<br><br>Thank you for reading and have an awesome day!
+			
+			</p>
+</div></div></main>
+
+<div class="aesthetic-windows-95-modal xtra draggable"><div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">mylove.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content askcontent">
+<div title="to have everything, or to lose everything, yet i have no power to choose..."><img src="https://ventablack.neocities.org/shrine/aven7.gif"/></div>
+</div></div>
+
+<div class="aesthetic-windows-95-modal xtra2 draggable"><div class="aesthetic-windows-95-modal-title-bar handle"><div class="aesthetic-windows-95-modal-title-bar-text header">dissociate.html</div><div class="aesthetic-windows-95-modal-title-bar-controls"><div class="aesthetic-windows-95-button-title-bar"><button>X</button></div></div></div><div class="aesthetic-windows-95-modal-content askcontent">
+<div title="do you understand? it's all in your hands. it's your move."><img src="https://ventablack.neocities.org/media/diss.png"/></div>
+</div></div>
+
+
+<!--SCRIPTS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="https://unpkg.com/draggabilly/dist/draggabilly.pkgd.min.js"></script>
+<script>
+$(document).ready(function(){
+  if ($(window).width() > 850) {$('.draggable').draggabilly({handle:'.handle'});};
+  $(window).on('resize', function(){
+    if ($(window).width() < 850) {$('.draggable').draggabilly('destroy')}
+    else {$('.draggable').draggabilly({handle:'.handle'});}
+  });
+  $('body').find('b').each(function(){$('b').addClass('aesthetic-font-modifier-gradient-purple-blue');});
+  $('.navigation').append('<li class="header-link credit"><a href="//aurthms.tumblr.com">Credit</a></li>');
+  $('#links').click(function(){
+    $('#links').addClass('active');
+    $('#about').removeClass('active');
+    $('#faq').removeClass('active');
+    $('.nav').addClass('show');
+    $('.abt').removeClass('show');
+    $('.askd').removeClass('show');
+    $('.fave').removeClass('show');
+  });
+  $('#about').click(function(){
+    $('#about').addClass('active');
+    $('#links').removeClass('active');
+    $('#faq').removeClass('active');
+    $('.abt').addClass('show');
+    $('.nav').removeClass('show');
+    $('.askd').removeClass('show');
+    $('.fave').removeClass('show');
+  });
+  $('#faq').click(function(){
+    $('#faq').addClass('active');
+    $('#links').removeClass('active');
+    $('#about').removeClass('active');
+    $('.askd').addClass('show');
+    $('.nav').removeClass('show');
+    $('.abt').removeClass('show');
+    $('.fave').removeClass('show');
+  });
+  $('#fave').click(function(){
+    $('#faq').removeClass('active');
+    $('#links').removeClass('active');
+    $('#about').removeClass('active');
+    $('.askd').addClass('show');
+    $('.nav').removeClass('show');
+    $('.abt').removeClass('show');
+    $('.fave').addClass('show');
+  });
+});
+</script>
+
+<img src="https://ventablack.neocities.org/media/vapor.png" style="position:absolute; right:0%; bottom:0%;">
+<img src="https://ventablack.neocities.org/media/angel.png" style="position:absolute; left:1%; bottom:0%;">
+<img src="https://ventablack.neocities.org/media/eyes.png" style="position:absolute; width:200px; left:45%; bottom:70%;">
+
+</body>
+
+<!-- Mirrored from ventablack.neocities.org/about by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Aug 2025 17:15:25 GMT -->
+</html>
